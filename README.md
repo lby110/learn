@@ -381,4 +381,389 @@ public class TestThread4 implements Runnable {
 }
 
 ```
+## 8.线程休眠（sleep）
+- sleep指定当前线程阻塞的毫秒数；
+- sleep存在InterruptedException异常；
+- sleep时间达到后线程进入就绪状态
+- sleep可以模拟网络延迟、倒计时
+- 每一个对象都有一个锁，sleep不会释放锁
 
+模拟倒计时
+```java
+public class TestSleep {
+    public static void test() throws InterruptedException {
+        int num = 10;
+        while (true) {
+            Thread.sleep(1000);//睡眠1s
+            System.out.println(num--);
+            if (num<=0){
+                break;
+            }
+        }
+    }
+
+    public static void main(String[] args) throws InterruptedException {
+        test();
+    }
+}
+```
+
+## 9.线程礼让（yield）
+- 礼让线程，让当前正在执行的线程暂停，但不阻塞
+- 礼让线程让在运行状态的线程转为就绪状态
+- 礼让线程并不是真正意义上的礼让，而是将在运行状态的线程重新转为就绪状态供CPU随机调用
+- A线程为运行状态，B为就绪状态。A线程调用礼让方法。A转为就绪状态和B同时竞争CPU。
+  最后执行哪个线程是CPU随机选择的。（礼让并不一定成功）
+```java
+
+public class TestYield implements Runnable {
+    @Override
+    public void run() {
+        System.out.println(Thread.currentThread().getName()+"开始执行");
+        //Thread.yield();//礼让方法
+        System.out.println(Thread.currentThread().getName()+"结束执行");
+    }
+
+    public static void main(String[] args) {
+        TestYield testYield=new TestYield();
+        new Thread(testYield,"a").start();
+        new Thread(testYield,"b").start();
+    }
+}
+
+未开启礼让方法执行结果：
+a开始执行
+a结束执行
+b开始执行
+b结束执行
+
+开启礼让方法执行结果：
+（礼让失败结果）
+a开始执行
+b开始执行
+a结束执行
+b结束执行
+
+（礼让成功结果）
+b开始执行
+a开始执行
+b结束执行
+a结束执行
+```
+
+## 10.守护（daemon）线程
+- 线程分为用户线程、守护线程
+- 虚拟机必须确保用户线程执行完毕
+- 虚拟机不用等待守护线程执行完毕
+
+## 11.线程不安全案例（上文的抢票也是线程不安全的）
+```java
+public class TestUnsafeBank {
+    public static void main(String[] args) {
+        Account account = new Account(100, "基金");//创建账户
+        Drawing boy = new Drawing(account, 50, "boy");
+        Drawing girl = new Drawing(account, 100, "girl");
+        boy.start();
+        girl.start();
+    }
+}
+
+//账户
+class Account {
+    int money;//余额
+    String IDCard;//卡号
+
+    public Account(int money, String IDCard) {
+        this.money = money;
+        this.IDCard = IDCard;
+    }
+}
+//创建交易
+class Drawing extends Thread {
+    Account account;//账户
+    int drawingMoney;//取了多少钱
+    int nowMoney;//现在手头上的钱
+
+    public Drawing(Account account, int drawingMoney, String name) {
+        super(name);
+        this.account = account;
+        this.drawingMoney = drawingMoney;
+    }
+
+    @Override
+    public void run() {
+
+        if (account.money - drawingMoney < 0) {
+            System.out.println(Thread.currentThread().getName() + "余额不足");
+            return;
+        }
+        try {
+            Thread.sleep(100);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        //卡内余额=余额-取出的钱
+        account.money = account.money - drawingMoney;
+        //手里的钱
+        nowMoney += drawingMoney;
+        System.out.println(account.IDCard + "余额为" + account.money);
+        System.out.println(this.getName() + "手里的钱为" + nowMoney);
+    }
+}
+```
+
+## 12.synchronized
+- synchronized在方法上，锁的是this（该对象）
+```java
+package com.lby.thread;
+
+public class TestUnsafeBank {
+    public static void main(String[] args) {
+        Account account = new Account(100, "基金");
+        Drawing boy = new Drawing(account, 50, "boy");
+        Drawing girl = new Drawing(account, 100, "girl");
+        boy.start();
+        girl.start();
+    }
+}
+
+//账户
+class Account {
+    int money;//余额
+    String IDCard;//卡号
+
+    public Account(int money, String IDCard) {
+        this.money = money;
+        this.IDCard = IDCard;
+    }
+}
+
+class Drawing extends Thread {
+    Account account;//账户
+    int drawingMoney;//取了多少钱
+    int nowMoney;//现在手头上的钱
+
+    public Drawing(Account account, int drawingMoney, String name) {
+        super(name);
+        this.account = account;
+        this.drawingMoney = drawingMoney;
+    }
+
+    //添加synchronized，默认锁的是this
+    @Override
+    public synchronized void run() {
+
+        if (account.money - drawingMoney < 0) {
+            System.out.println(Thread.currentThread().getName() + "余额不足");
+            return;
+        }
+        try {
+            Thread.sleep(100);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        //卡内余额=余额-取出的钱
+        account.money = account.money - drawingMoney;
+        //手里的钱
+        nowMoney += drawingMoney;
+        System.out.println(account.IDCard + "余额为" + account.money);
+        System.out.println(this.getName() + "手里的钱为" + nowMoney);
+    }
+}
+
+执行结果：发现还是有负数存在，说明上面方法有问题.则使用代码块
+基金余额为-50
+基金余额为-50
+boy手里的钱为50
+girl手里的钱为100
+```
+- synchronized(obj){}  
+Obj:称之为监视器，但是一般推荐使用共享资源作为同步监视器
+```java
+package com.lby.thread;
+
+public class TestUnsafeBank {
+    public static void main(String[] args) {
+        Account account = new Account(100, "基金");
+        Drawing boy = new Drawing(account, 50, "boy");
+        Drawing girl = new Drawing(account, 100, "girl");
+        boy.start();
+        girl.start();
+    }
+}
+
+//账户
+class Account {
+    int money;//余额
+    String IDCard;//卡号
+
+    public Account(int money, String IDCard) {
+        this.money = money;
+        this.IDCard = IDCard;
+    }
+}
+
+class Drawing extends Thread {
+    Account account;//账户
+    int drawingMoney;//取了多少钱
+    int nowMoney;//现在手头上的钱
+
+    public Drawing(Account account, int drawingMoney, String name) {
+        super(name);
+        this.account = account;
+        this.drawingMoney = drawingMoney;
+    }
+
+    @Override
+    public void run() {
+        //哪里增删改了锁哪个。锁的对象就是变化的量
+        synchronized (account) {
+            if (account.money - drawingMoney < 0) {
+                System.out.println(Thread.currentThread().getName() + "余额不足");
+                return;
+            }
+            try {
+                Thread.sleep(100);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            //卡内余额=余额-取出的钱
+            account.money = account.money - drawingMoney;
+            //手里的钱
+            nowMoney += drawingMoney;
+            System.out.println(account.IDCard + "余额为" + account.money);
+            System.out.println(this.getName() + "手里的钱为" + nowMoney);
+        }
+    }
+}
+```
+### 13.死锁
+- 某一个同步代码块同时拥有两个以上对象的锁，就可能发生死锁
+#### 14.产生死锁的四个必要条件
+1.互斥条件：一个资源只能被一个进程使用  
+2.请求与保持条件：一个进程因请求资源被阻塞时，对已经获得资源保持不放  
+3.不剥夺条件：进程已经获得的资源，在未使用完之前，不能强行剥夺  
+4.循环等待条件，若干进程之间形成一种头尾相接的循环等待资源关系
+
+```java
+//死锁：多个线程互相抱着对方需要的资源，然后形成僵持
+public class DeadLock {
+    public static void main(String[] args) {
+        Makeup makeup=new Makeup(0,"小美");
+        Makeup makeup2=new Makeup(1,"小李");
+        makeup.start();
+        makeup2.start();
+    }
+}
+//口红
+class Lipstick{
+
+}
+//镜子
+class Mirror{
+
+}
+
+//化妆
+class Makeup extends Thread{
+    //需要的资源只有一份，所以用static来保证资源的唯一性
+    static Lipstick lipstick=new Lipstick();
+    static Mirror mirror=new Mirror();
+    //选择
+    int choice;
+    //化妆的人
+    String girlName;
+    public Makeup(int choice,String girlName){
+        this.choice=choice;
+        this.girlName=girlName;
+    }
+
+    @Override
+    public void run() {
+        try {
+            makeUp();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+    public void makeUp() throws InterruptedException {
+        //死锁代码块
+        if (choice==0){
+            synchronized (lipstick){
+                System.out.println(this.getName()+"获得口红的锁");
+                Thread.sleep(1000);
+                synchronized (mirror){
+                    System.out.println(this.getName()+"获得镜子的锁");
+                }
+            }
+        }else {
+            synchronized (mirror){
+                System.out.println(this.getName()+"获得镜子的锁");
+                Thread.sleep(1000);
+                synchronized (lipstick){
+                    System.out.println(this.getName()+"获得口红的锁");
+                }
+            }
+        }
+    }
+    
+    /**替换makeup方法可解决死锁
+    * public void makeUp() throws InterruptedException {
+              if (choice==0){
+                  synchronized (lipstick){
+                      System.out.println(this.getName()+"获得口红的锁");
+                      Thread.sleep(1000);
+                  }
+                  synchronized (mirror){
+                      System.out.println(this.getName()+"获得镜子的锁");
+                  }
+              }else {
+                  synchronized (mirror){
+                      System.out.println(this.getName()+"获得镜子的锁");
+                      Thread.sleep(1000);
+                  }
+                  synchronized (lipstick){
+                      System.out.println(this.getName()+"获得口红的锁");
+                  }
+      
+              }
+          }
+    * /
+*/
+}
+```
+
+### 15.Lock锁（性能更好）
+
+```java
+import java.util.concurrent.locks.ReentrantLock;
+
+//测试lock锁
+public class TestLock  {
+    public static void main(String[] args) {
+        TestLock2 lock2=new TestLock2();
+        lock2.start();
+    }
+
+}
+class TestLock2 extends Thread{
+    int nums=10;
+    //定义lock锁
+    private final ReentrantLock lock=new ReentrantLock();
+    @Override
+    public void run() {
+        while (true){
+            try{
+                lock.lock();//lock枷锁
+                System.out.println(nums--);
+                if (nums==0){
+                    break;
+                }
+            }finally {
+                lock.unlock();//lock解锁
+            }
+
+        }
+    }
+}
+```
