@@ -1,13 +1,13 @@
 package com.lby.function;
 
-import java.util.function.Supplier;
+import java.util.function.Consumer;
 
 /**
- * Supplier：供给型接口，只返回不输入
+ * Consumer：消费型接口，不返回
  * @author macro
  * @Created on 2020-04-05
  */
-public class demo03 {
+public class demo04 {
     public static void main(String[] args) {
         /*Supplier<String> supplier=new Supplier<String>() {
             @Override
@@ -15,9 +15,9 @@ public class demo03 {
                 return "1024";
             }
         };*/
-        Supplier<Integer> supplier=()->{
-          return 1024;
+        Consumer<Integer> consumer=(Integer str)->{
+            System.out.println(str);
         };
-        System.out.println(supplier.get());
+       consumer.accept(1);
     }
 }

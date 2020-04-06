@@ -1,4 +1,4 @@
-package com.lby.thread;
+package com.lby.lock;
 
 /**
  * @author macro

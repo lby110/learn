@@ -1,4 +1,4 @@
-package com.lby.thread;
+package com.lby.lock;
 
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;

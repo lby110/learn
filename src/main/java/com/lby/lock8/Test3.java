@@ -4,17 +4,15 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * 8锁问题：关于锁的八个问题
- * 3.增加一个普通方法，两个线程先打印发短信还是hello？1.hello 2.发短信
- * hello没有锁，不是同步方法。不受锁的影响
- * 4.两个对象，执行两个同步方法，发短信还是打电话？1.打电话 2.发短信
- * synchronized：锁的对象是方法的调用者。这里是两个调用者，两把锁
+ * 5.增加两个静态同步方法，两个线程先打印发短信还是打电话？1.发短信 2.打电话
+ * static是静态方法，类一加载就有了。锁的是Class。Phone3唯一的一个Class对象
  * @author macro
  * @Created on 2020-04-03
  */
-public class Test2 {
+public class Test3 {
     public static void main(String[] args) {
-        Phone2 phone=new Phone2();
-        Phone2 phone2=new Phone2();
+        Phone3 phone=new Phone3();
+        Phone3 phone2=new Phone3();
         new Thread(()->{
             phone.sendEms();
         },"A").start();
@@ -30,8 +28,8 @@ public class Test2 {
     }
 }
 
-class Phone2{
-    public synchronized void sendEms(){
+class Phone3{
+    public static synchronized void sendEms(){
         try {
             TimeUnit.SECONDS.sleep(4);
         } catch (InterruptedException e) {
@@ -39,7 +37,7 @@ class Phone2{
         }
         System.out.println("发短信");
     }
-    public synchronized void call(){
+    public static synchronized void call(){
         System.out.println("打电话");
     }
     public void hello(){

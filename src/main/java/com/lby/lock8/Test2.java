@@ -4,16 +4,17 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * 8锁问题：关于锁的八个问题
- * 1.标准情况下，两个线程先打印发短信还是打电话？1.发短信 2.打电话
- * 1.发短信延迟4s，两个线程先打印发短信还是打电话？1.发短信 2.打电话
- * 为什么会导致1、2情况呢？因为有锁的存在
- * synchronized：锁的对象是方法的调用者。由于phone只有一个所以谁先拿到就谁先执行
+ * 3.增加一个普通方法，两个线程先打印发短信还是hello？1.hello 2.发短信
+ * hello没有锁，不是同步方法。不受锁的影响
+ * 4.两个对象，执行两个同步方法，发短信还是打电话？1.打电话 2.发短信
+ * synchronized：锁的对象是方法的调用者。这里是两个调用者，两把锁
  * @author macro
  * @Created on 2020-04-03
  */
-public class Test1 {
+public class Test2 {
     public static void main(String[] args) {
-        Phone phone=new Phone();
+        Phone2 phone=new Phone2();
+        Phone2 phone2=new Phone2();
         new Thread(()->{
             phone.sendEms();
         },"A").start();
@@ -24,11 +25,12 @@ public class Test1 {
             e.printStackTrace();
         }
         new Thread(()->{
-            phone.call();
+            phone2.call();
         },"B").start();
     }
 }
-class Phone{
+
+class Phone2{
     public synchronized void sendEms(){
         try {
             TimeUnit.SECONDS.sleep(4);
@@ -39,5 +41,8 @@ class Phone{
     }
     public synchronized void call(){
         System.out.println("打电话");
+    }
+    public void hello(){
+        System.out.println("hello");
     }
 }

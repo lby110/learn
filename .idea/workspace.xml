@@ -2,17 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d8834d2-9da3-4b16-b3e2-1ec5f833bdc8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lby/thread/DeadLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lby/thread/TestDaemon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lby/thread/TestJoin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lby/thread/TestLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lby/thread/TestSleep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lby/thread/TestUnsafeBank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lby/thread/TestYield.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lby/thread/TestThread3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lby/thread/TestThread3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lby/thread/TestThread3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lby/thread/TestThread3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lby/add/CyclicBarrierDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lby/add/CyclicBarrierDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lby/add/ReadWriteLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lby/add/ReadWriteLockDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lby/add/SemaphoreDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lby/add/SemaphoreDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lby/add/countDownLatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lby/add/countDownLatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lby/callable/CallableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lby/callable/CallableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lby/executors/ExecutorsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lby/executors/ExecutorsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lby/executors/ExecutorsDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lby/executors/ExecutorsDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lby/function/USer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lby/function/USer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lby/function/demo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lby/function/demo01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lby/function/demo02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lby/function/demo02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lby/function/demo03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lby/function/demo03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lby/function/demo04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lby/function/demo04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lby/function/demo05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lby/function/demo05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lby/lock/LockTest3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lby/lock/LockTest3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lby/lock/LockTest4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lby/lock/LockTest4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lby/lock/LockTest5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lby/lock/LockTest5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lby/lock/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lby/lock/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lby/lock/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lby/lock/Test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lby/lock8/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lby/lock8/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lby/lock8/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lby/lock8/Test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lby/lock8/Test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lby/lock8/Test3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lby/lock8/Test4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lby/lock8/Test4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lby/qu/SynchronousQueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lby/qu/SynchronousQueueDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lby/qu/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lby/qu/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lby/unsafe/ListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lby/unsafe/ListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lby/unsafe/MapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lby/unsafe/MapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lby/unsafe/SetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lby/unsafe/SetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lby/volatiles/VolatileDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lby/volatiles/VolatileDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lby/volatiles/VolatileDemo02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lby/volatiles/VolatileDemo02.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,34 +48,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lby/function/demo05.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lby/volatiles/VolatileDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lby/volatiles/VolatileDemo02.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+              <folding>
+                <element signature="e#194#195#0" expanded="true" />
+                <element signature="e#226#227#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="55">
-                <caret line="735" column="17" selection-start-line="735" selection-start-column="17" selection-end-line="735" selection-end-column="17" />
-                <folding>
-                  <element signature="e#312#313#0" expanded="true" />
-                  <element signature="e#353#354#0" expanded="true" />
-                  <element signature="e#497#498#0" expanded="true" />
-                  <element signature="e#533#534#0" expanded="true" />
-                  <element signature="e#690#691#0" expanded="true" />
-                  <element signature="e#734#735#0" expanded="true" />
-                  <element signature="e#762#763#0" expanded="true" />
-                  <element signature="e#807#808#0" expanded="true" />
-                  <element signature="e#158#159#0" expanded="true" />
-                  <element signature="e#216#217#0" expanded="true" />
-                  <element signature="e#508#509#0" expanded="true" />
-                  <element signature="e#574#575#0" expanded="true" />
-                  <element signature="e#761#762#0" expanded="true" />
-                  <element signature="e#827#828#0" expanded="true" />
-                  <element signature="e#1136#1137#0" expanded="true" />
-                  <element signature="e#1185#1186#0" expanded="true" />
-                  <element signature="e#300#301#0" expanded="true" />
-                  <element signature="e#328#329#0" expanded="true" />
-                  <element signature="e#267#268#0" expanded="true" />
-                  <element signature="e#298#299#0" expanded="true" />
-                </folding>
+              <first_editor relative-caret-position="347">
+                <caret line="770" selection-start-line="770" selection-end-line="770" />
               </first_editor>
               <second_editor />
             </state>
@@ -62,19 +95,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lby/thread/DeadLock.java">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/util/Comparator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-358">
-              <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lby/thread/TestLock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="4" selection-end-line="30" selection-end-column="1" />
+            <state relative-caret-position="237">
+              <caret line="149" column="11" selection-start-line="149" selection-start-column="11" selection-end-line="149" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -96,10 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lby/thread/TestThread.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lby/thread/TestThread2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lby/thread/Race.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lby/thread/StaticProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lby/thread/TestLambda.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lby/thread/TestLambda2.java" />
@@ -111,9 +131,46 @@
         <option value="$PROJECT_DIR$/src/main/java/com/lby/thread/TestDaemon.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lby/thread/TestThread3.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lby/thread/TestUnsafeBank.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lby/thread/DeadLock.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lby/thread/TestLock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lby/thread/XlsxUtils.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lby/thread/DeadLock.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lby/thread/Test1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lby/thread/Test2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lby/thread/Test3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lby/thread/LockTest3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lby/thread/LockTest4.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lby/thread/LockTest5.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lby/lock/Test1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lby/lock8/Test2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lby/lock8/Test4.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lby/lock8/Test3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lby/lock8/Test1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lby/unsafe/ListTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lby/unsafe/SetTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lby/unsafe/MapTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lby/callable/CallableTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lby/add.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lby/add/CountDownLatch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lby/add/countDownLatch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lby/add/CyclicBarrierDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lby/add/SemaphoreDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lby/add/ReadWriteLockDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lby/qu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lby/qu/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lby/qu/SynchronousQueueDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lby/executors/ExecutorsDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lby/executors/ExecutorsDemo2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lby/function/demo01.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lby/function/demo02.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lby/function/demo03.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lby/function/demo04.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lby/function/USer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lby/function/demo05.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lby/volatiles.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lby/volatiles/VolatileDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lby/volatiles/VolatileDemo02.java" />
       </list>
     </option>
   </component>
@@ -130,7 +187,23 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="thread" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="thread" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -140,7 +213,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,25 +244,70 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thread" type="b2602c69:ProjectViewProjectNode" />
               <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lby" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thread" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lby" type="462c0819:PsiDirectoryNode" />
+              <item name="qu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thread" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="lby" type="462c0819:PsiDirectoryNode" />
+              <item name="volatiles" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/lby/lock8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.20114942" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.lby.function" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lby.volatiles" />
+      <recent name="com.lby.function" />
+      <recent name="com.lby.executors" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/lby/lock8" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/lby/thread" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -204,13 +321,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestLock">
-    <configuration name="DeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lby.thread.DeadLock" />
+  <component name="RunManager" selected="Application.VolatileDemo02">
+    <configuration name="VolatileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lby.volatiles.VolatileDemo" />
       <module name="thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lby.thread.*" />
+          <option name="PATTERN" value="com.lby.volatiles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,12 +335,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestJoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lby.thread.TestJoin" />
+    <configuration name="VolatileDemo02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lby.volatiles.VolatileDemo02" />
       <module name="thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lby.thread.*" />
+          <option name="PATTERN" value="com.lby.volatiles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -231,12 +348,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lby.thread.TestLock" />
+    <configuration name="demo02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lby.function.demo02" />
       <module name="thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lby.thread.*" />
+          <option name="PATTERN" value="com.lby.function.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -244,12 +361,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestThread3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lby.thread.TestThread3" />
+    <configuration name="demo03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lby.function.demo03" />
       <module name="thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lby.thread.*" />
+          <option name="PATTERN" value="com.lby.function.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -257,12 +374,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestUnsafeBank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lby.thread.TestUnsafeBank" />
+    <configuration name="demo05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lby.function.demo05" />
       <module name="thread" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lby.thread.*" />
+          <option name="PATTERN" value="com.lby.function.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -272,11 +389,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestLock" />
-        <item itemvalue="Application.DeadLock" />
-        <item itemvalue="Application.TestUnsafeBank" />
-        <item itemvalue="Application.TestThread3" />
-        <item itemvalue="Application.TestJoin" />
+        <item itemvalue="Application.VolatileDemo02" />
+        <item itemvalue="Application.VolatileDemo" />
+        <item itemvalue="Application.demo05" />
+        <item itemvalue="Application.demo03" />
+        <item itemvalue="Application.demo02" />
       </list>
     </recent_temporary>
   </component>
@@ -294,32 +411,47 @@
       <workItem from="1583046483766" duration="1589000" />
       <workItem from="1583049050049" duration="9554000" />
       <workItem from="1583076798634" duration="2286000" />
-      <workItem from="1583131168538" duration="8465000" />
+      <workItem from="1583131168538" duration="8693000" />
+      <workItem from="1583408801738" duration="565000" />
+      <workItem from="1583472180082" duration="1058000" />
+      <workItem from="1583477745953" duration="46000" />
+      <workItem from="1583754912369" duration="390000" />
+      <workItem from="1585754081004" duration="25127000" />
+      <workItem from="1586068943520" duration="2664000" />
+      <workItem from="1586088105952" duration="4871000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23554000" />
+    <option name="totallyTimeSpent" value="58503000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.33762518" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.28595892" visible="true" weight="0.22031474" />
+      <window_info id="Structure" order="1" sideWeight="0.7140411" side_tool="true" weight="0.18240343" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32961586" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.32961586" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.4324659" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30111524" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38166046" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.1833953" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32961586" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.37422553" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32961586" />
@@ -328,30 +460,31 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3297568" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Word Book" order="5" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33762518" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.2875817" visible="true" weight="0.3397711" />
+      <window_info id="Structure" order="1" sideWeight="0.7124183" side_tool="true" weight="0.3304721" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32961586" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.45477074" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.4324659" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30111524" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39157373" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.1833953" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32961586" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3832021" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32961586" />
@@ -360,216 +493,445 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3297568" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Word Book" order="5" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Applications/apache-maven-3.6.0/repository/commons-io/commons-io/1.3.2/commons-io-1.3.2.jar!/org/apache/commons/io/FileUtils.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lby/lock8/Test1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="386" column="58" selection-start-line="386" selection-start-column="54" selection-end-line="386" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="39" column="69" selection-start-line="39" selection-start-column="69" selection-end-line="39" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lby/thread/TestThread2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lby/thread/Race.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="22" selection-start-line="2" selection-end-line="40" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lby/thread/StaticProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lby/thread/TestLambda.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="43" column="18" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="18" />
+        <state relative-caret-position="252">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
-            <element signature="e#791#792#0" expanded="true" />
-            <element signature="e#857#858#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lby/thread/TestLambda2.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/util/Collection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        <state relative-caret-position="172">
+          <caret line="143" column="21" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="107" column="9" lean-forward="true" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/util/Set.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="224" column="15" selection-start-line="224" selection-start-column="12" selection-end-line="224" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="451" column="13" lean-forward="true" selection-start-line="451" selection-start-column="13" selection-end-line="451" selection-end-column="13" />
           <folding>
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#19103#19104#0" expanded="true" />
+            <element signature="e#19161#19162#0" expanded="true" />
+            <element signature="e#19327#19328#0" expanded="true" />
+            <element signature="e#19410#19411#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lby/thread/TestYield.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/util/HashSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lby/thread/TestJoin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="509" column="11" selection-start-line="509" selection-start-column="11" selection-end-line="509" selection-end-column="11" />
+        <state relative-caret-position="152">
+          <caret line="98" column="3" lean-forward="true" selection-start-line="98" selection-start-column="3" selection-end-line="98" selection-end-column="55" />
           <folding>
-            <element signature="e#15704#15705#0" expanded="true" />
-            <element signature="e#15770#15771#0" expanded="true" />
-            <element signature="e#17619#17620#0" expanded="true" />
-            <element signature="e#17660#17661#0" expanded="true" />
-            <element signature="e#43969#43970#0" expanded="true" />
-            <element signature="e#43996#43997#0" expanded="true" />
+            <element signature="e#3740#3741#0" expanded="true" />
+            <element signature="e#3777#3778#0" expanded="true" />
+            <element signature="e#8064#8065#0" expanded="true" />
+            <element signature="e#8112#8113#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lby/thread/TestSleep.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lby/unsafe/ListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" selection-start-line="2" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lby/thread/TestThread4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="24" column="40" selection-end-line="29" />
-          <folding>
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lby/thread/TestThread3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lby/thread/TestDaemon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lby/thread/TestUnsafeBank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="34" column="13" selection-end-line="54" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lby/thread/TestThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="126">
+          <caret line="7" column="51" lean-forward="true" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lby/thread/DeadLock.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lby/unsafe/SetTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-358">
-          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        <state relative-caret-position="-96">
+          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lby/thread/TestLock.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lby/unsafe/MapTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="4" selection-end-line="30" selection-end-column="1" />
+        <state relative-caret-position="216">
+          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/util/concurrent/FutureTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="131" column="11" selection-start-line="131" selection-start-column="11" selection-end-line="131" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lby/add.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lby/callable/CallableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/util/concurrent/CountDownLatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="197" column="35" selection-start-line="197" selection-start-column="30" selection-end-line="197" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lby/add/countDownLatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lby/add/CyclicBarrierDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="52" lean-forward="true" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lby/add/SemaphoreDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/awt/print/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1133">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReadWriteLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="118" column="22" lean-forward="true" selection-start-line="118" selection-start-column="22" selection-end-line="118" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lby/add/ReadWriteLockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lby/qu.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="208" column="6" selection-start-line="208" selection-start-column="6" selection-end-line="208" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/util/concurrent/BlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="231" column="9" selection-start-line="231" selection-start-column="9" selection-end-line="231" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lby/qu/SynchronousQueueDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lby/qu/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lby/executors/ExecutorsDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/util/concurrent/Executors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2340">
+          <caret line="171" column="24" selection-start-line="171" selection-start-column="24" selection-end-line="171" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/util/concurrent/RejectedExecutionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/jre/lib/rt.jar!/java/awt/EventQueue.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#32079#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="322" column="13" selection-start-line="322" selection-start-column="13" selection-end-line="322" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lby/executors/ExecutorsDemo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/util/function/Supplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lby/function/demo02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lby/function/demo03.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="48" column="19" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lby/function/demo04.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/util/function/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="48" column="16" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lby/function/USer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding>
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/util/stream/ReferencePipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="387" column="31" selection-start-line="387" selection-start-column="31" selection-end-line="387" selection-end-column="31" />
+          <folding>
+            <element signature="e#14354#14355#0" expanded="true" />
+            <element signature="e#14400#14401#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="67" column="28" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lby/function/demo01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="48" lean-forward="true" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="149" column="11" selection-start-line="149" selection-start-column="11" selection-end-line="149" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="427" column="6" lean-forward="true" selection-start-line="427" selection-start-column="6" selection-end-line="427" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lby/volatiles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lby/function/demo05.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="274" column="6" lean-forward="true" selection-start-line="274" selection-start-column="6" selection-end-line="274" selection-end-column="6" />
+          <folding>
+            <element signature="e#15704#15705#0" expanded="true" />
+            <element signature="e#15770#15771#0" expanded="true" />
+            <element signature="e#17619#17620#0" expanded="true" />
+            <element signature="e#17660#17661#0" expanded="true" />
+            <element signature="e#19132#19133#0" expanded="true" />
+            <element signature="e#19175#19176#0" expanded="true" />
+            <element signature="e#43969#43970#0" expanded="true" />
+            <element signature="e#43996#43997#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/com/lby/volatiles/VolatileDemo02.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#698#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="55">
-            <caret line="735" column="17" selection-start-line="735" selection-start-column="17" selection-end-line="735" selection-end-column="17" />
-            <folding>
-              <element signature="e#312#313#0" expanded="true" />
-              <element signature="e#353#354#0" expanded="true" />
-              <element signature="e#497#498#0" expanded="true" />
-              <element signature="e#533#534#0" expanded="true" />
-              <element signature="e#690#691#0" expanded="true" />
-              <element signature="e#734#735#0" expanded="true" />
-              <element signature="e#762#763#0" expanded="true" />
-              <element signature="e#807#808#0" expanded="true" />
-              <element signature="e#158#159#0" expanded="true" />
-              <element signature="e#216#217#0" expanded="true" />
-              <element signature="e#508#509#0" expanded="true" />
-              <element signature="e#574#575#0" expanded="true" />
-              <element signature="e#761#762#0" expanded="true" />
-              <element signature="e#827#828#0" expanded="true" />
-              <element signature="e#1136#1137#0" expanded="true" />
-              <element signature="e#1185#1186#0" expanded="true" />
-              <element signature="e#300#301#0" expanded="true" />
-              <element signature="e#328#329#0" expanded="true" />
-              <element signature="e#267#268#0" expanded="true" />
-              <element signature="e#298#299#0" expanded="true" />
-            </folding>
+          <first_editor relative-caret-position="347">
+            <caret line="770" selection-start-line="770" selection-end-line="770" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lby/volatiles/VolatileDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lby/volatiles/VolatileDemo02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
